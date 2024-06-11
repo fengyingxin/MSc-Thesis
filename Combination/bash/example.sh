@@ -1,0 +1,46 @@
+python combination.py \
+    --xmesh_obj_path ../XMeshori/data/castle.obj \
+    --xmesh_output_dir ./outputs/castle/xmesh \
+    --xmesh_prompt "a brick castle" \
+    --xmesh_sigma 12.0 \
+    --xmesh_clamp tanh \
+    --xmesh_n_normaugs 4 \
+    --xmesh_n_augs 1 \
+    --xmesh_normmincrop 0.1 \
+    --xmesh_normmaxcrop 0.4 \
+    --xmesh_geoloss \
+    --xmesh_colordepth 2 \
+    --xmesh_normdepth 2 \
+    --xmesh_frontview \
+    --xmesh_frontview_std 4 \
+    --xmesh_clipavg view \
+    --xmesh_lr_decay 0.9 \
+    --xmesh_clamp tanh \
+    --xmesh_normclamp tanh \
+    --xmesh_save_render \
+    --xmesh_seed 42 \
+    --xmesh_n_iter 800 \
+    --xmesh_normal_learning_rate 0.0005 \
+    --xmesh_standardize \
+    --xmesh_no_pe \
+    --xmesh_symmetry \
+    --xmesh_background 1 1 1 \
+    --xmesh_normratio 0.1 \
+    --text2tex_output_dir outputs/castle/text2tex \
+    --text2tex_prompt "a brick apartment" \
+    --text2tex_add_view_to_prompt \
+    --text2tex_ddim_steps 50 \
+    --text2tex_new_strength 1 \
+    --text2tex_update_strength 0.3 \
+    --text2tex_view_threshold 0.1 \
+    --text2tex_blend 0 \
+    --text2tex_dist 1 \
+    --text2tex_num_viewpoints 36 \
+    --text2tex_viewpoint_mode predefined \
+    --text2tex_use_principle \
+    --text2tex_update_steps 20 \
+    --text2tex_update_mode heuristic \
+    --text2tex_seed 42 \
+    --text2tex_post_process \
+    --text2tex_device "2080" \
+    --text2tex_use_objaverse

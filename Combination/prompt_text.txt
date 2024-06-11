@@ -1,0 +1,7 @@
+house: An adorable cottage with a thatched roof
+townhouse: A two-storey brick townhouse with grey roof
+stoommachine: A three-storey brick building with grey roof and arched doors and windows
+apartment: An exterior brick apartment
+office: An exterior modern high glass window office
+church: An oude kerk delft
+castle: A brick castle
