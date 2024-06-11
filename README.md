@@ -2,14 +2,14 @@
 ## Overview
 Two methods for 3D model edit with generative AI are presented here, including Image Control X-Mesh (`XMeshimg`) and Combination of X-Mesh and Text2Tex (`Combination`). They can produce high-quality 3D model edit results with geometric changes and texture creation. The proposed methods are especially suitable for low-fidelity inputs. 
 
-Image Control X-Mesh is modified from [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh). Instead of text prompts, the method allows user to use image prompts to guide the edit. The results can better follow the user control and be more realistic.   
+Image Control X-Mesh is modified from [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh). Instead of text prompts, the method allows the user to use image prompts to guide the edit. The results can better follow the user control and be more realistic.   
 
 Combination of X-Mesh and Text2Tex takes advantage of both [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) and [Text2Tex](https://github.com/daveredrum/Text2Tex). The edited geometry from [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) is used as input for [Text2Tex](https://github.com/daveredrum/Text2Tex) to provide richer depth information. It can generate smoother and more detailed textures.
 
 <p align="center"><img src="Docs/overview.svg" width="90%"></p>
 
 ## Setup
-The code is tested on Ubuntu 20.04.6 LTS with a NVIDIA GPU with 24 GB RAM.
+The code is tested on Ubuntu 20.04.6 LTS with an NVIDIA GPU with 24 GB RAM.
 
 To run Image Control X-Mesh: 
 
@@ -51,7 +51,7 @@ see [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) and [Text2Tex](https://git
 ## Inputs
 ### Mesh
 The open-source tool [MeshLab](https://www.meshlab.net/) can be used for mesh preprocessing. The input mesh for both methods should meet the below requirements and example meshes used in the thesis are provided in `Data`:
-1. Y-axis is up and the mesh should face towards +X. The `Rotate` function of [MeshLab](https://www.meshlab.net/) can be used.
+1. The Y-axis is up and the mesh should face towards +X. The `Rotate` function of [MeshLab](https://www.meshlab.net/) can be used.
 2. The mesh should be represented by small triangle faces. The `Subdivision Surfaces` function can be used.
 
 The input mesh should look like the below image:
@@ -60,14 +60,14 @@ The input mesh should look like the below image:
 
 ### Image prompt (Image control X-Mesh)
 Here are suggestions for image prompts and example images can be found in `XMeshimg/prompt_image`:
-1. The object should be complete and and take up the majority of the image.
-2. Choose image from the representative angle (e.g. the front view of a building) to give more useful control.
+1. The object should be complete and take up the majority of the image.
+2. Choose the image from a representative angle (e.g. the front view of a building) to give more useful control.
 3. Avoid the presence of barriers or irrelevant features.
 4. The image should be high enough in resolution and square (512*512 is ideal).
 
 ### Text prompt (Combination of X-Mesh and Text2Tex)
 Here are suggestions for text prompts and example texts can be found in `Combination/prompt_text.txt`:
-1. Specify details, like type of the building, size, colour and material of key parts, additional features and the overall style.
+1. Specify details, like the type of the building, size, colour and material of key parts, additional features and the overall style.
 2. If needed, add keywords for more realistic style images, like 'unreal engine' or 'DSLR photo'.
 3. If needed, add keywords to get the complete architecture from the outside, like 'zoom-out' or 'exterior'.
 
@@ -80,7 +80,6 @@ First check the `XMeshimg/image_xmesh.py` for all tunable parameters. You can ch
 cd XMeshimg
 ./bash/example.sh
 ```
-
 #### Use gradio
 To start a local gradio demo, run:
 ```
@@ -103,7 +102,7 @@ cd Combination
 ```
 
 ## Outputs
-
+<p align="center"><img src="Docs/outputs.svg" width="100%"> </p>
 
 ## Acknowledgement
 The codes are based on [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) and [Text2Tex](https://github.com/daveredrum/Text2Tex). Thanks for their excellent work!
