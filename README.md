@@ -55,7 +55,7 @@ The open-source tool [MeshLab](https://www.meshlab.net/) can be used for mesh pr
 2. The mesh should be represented by small triangle faces. The `Subdivision Surfaces` function can be used.
 
 The input mesh should look like the below image:
-<p align="center"><img src="Docs/mesh_requirement.png" width="40%"> </p> 
+<p align="center"><img src="Docs/mesh_requirement.png" width="50%"> </p> 
 
 
 ### Image prompt (Image control X-Mesh)
@@ -86,10 +86,7 @@ To start a local gradio demo, run:
 cd XMeshimg
 python image_xmesh_gradio.py
 ```
-Only major parameters are provided for tuning and the process results are automatically stored in `outputs/xmeshimg` folder. 
-
-
-Below is a successful sample:
+Only major parameters are provided for tuning and the process results are automatically stored in `outputs/xmeshimg` folder. Below is a successful sample:
 <p align="center"><img src="Docs/gradio_output_1.png" width="50%"> </p>
 <p align="center"><img src="Docs/gradio_output_2.png" width="50%"> </p> 
 
