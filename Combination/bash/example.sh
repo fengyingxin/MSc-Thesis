@@ -1,5 +1,5 @@
 python combination.py \
-    --xmesh_obj_path ../XMeshori/data/castle.obj \
+    --xmesh_obj_path ../Data/castle.obj \
     --xmesh_output_dir ./outputs/castle/xmesh \
     --xmesh_prompt "a brick castle" \
     --xmesh_sigma 12.0 \
