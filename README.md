@@ -49,13 +49,13 @@ see [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) and [Text2Tex](https://git
 
 ## Inputs
 ### Mesh
-The open-source tool [MeshLab](https://www.meshlab.net/) can be used for mesh preprocessing. The input mesh for both methods should meet the below requirements:
+The open-source tool [MeshLab](https://www.meshlab.net/) can be used for mesh preprocessing. The input mesh for both methods should meet the below requirements and example meshes used in the thesis are provided in `Data`:
 1. Y-axis is up and the mesh should face towards +X. The `Rotate` function of [MeshLab](https://www.meshlab.net/) can be used.
-2. The mesh should be represented by small triangle faces. The `Subdividion Surfaces` function can be used.
+2. The mesh should be represented by small triangle faces. The `Subdivision Surfaces` function can be used.
 
 The input mesh should look like the below image:
 <p align="center"><img src="Docs/mesh_requirement.png" width="50%"> </p> 
-A example mesh is provided in `
+
 
 ### Image prompt (Image control X-Mesh)
 Here are suggestions for image prompts and example images can be found in `XMeshimg/prompt_image`:
