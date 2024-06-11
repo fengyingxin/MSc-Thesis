@@ -6,7 +6,7 @@ Image Control X-Mesh is modified from [X-Mesh](https://github.com/xmu-xiaoma666/
 
 Combination of X-Mesh and Text2Tex takes advantage of both [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) and [Text2Tex](https://github.com/daveredrum/Text2Tex). The edited geometry from [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) is used as input for [Text2Tex](https://github.com/daveredrum/Text2Tex) to provide richer depth information. It can generate smoother and more detailed textures.
 
-<p align="center"><img src="Docs/overview.svg" width="80%"></p>
+<p align="center"><img src="Docs/overview.svg" width="90%"></p>
 
 ## Setup
 The code is tested on Ubuntu 20.04.6 LTS with a NVIDIA GPU with 24 GB RAM.
