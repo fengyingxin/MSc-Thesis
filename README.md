@@ -23,6 +23,7 @@ conda env create --file environment.yml
 # install other packages
 pip install git+https://github.com/openai/CLIP.git
 pip install kaolin==0.15.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-1.12.1_cu113.html
+pip install einops
 
 # install gradio (if needed)
 pip install gradio 
@@ -77,7 +78,7 @@ Here are suggestions for text prompts and example texts can be found in `Combina
 First check the `XMeshimg/image_xmesh.py` for all tunable parameters. You can change `XMeshimg/bash/example.sh` to meet your demand and use it for editing:
 ```
 cd XMeshimg
-python ./bash/example.sh
+./bash/example.sh
 ```
 
 #### Use gradio
@@ -95,7 +96,7 @@ Only major parameters are provided for tuning and the process results are automa
 First check the `Combination/combination.py` for all tunable parameters. You can change `Combination/bash/example.sh` to meet your demand and use it for editing:
 ```
 cd Combination
-python ./bash/example.sh
+./bash/example.sh
 ```
 
 ## Outputs
