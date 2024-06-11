@@ -99,6 +99,7 @@ cd Combination
 ```
 
 ## Outputs
+Below are the results from the Image Control X-Mesh and Combination of X-Mesh and Text2Tex methods:
 <p align="center"><img src="Docs/outputs.svg" width="100%"> </p>
 
 ## Acknowledgement
