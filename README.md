@@ -88,10 +88,10 @@ python image_xmesh_gradio.py
 ```
 Only major parameters are provided for tuning and the process results are automatically stored in `outputs/xmeshimg` folder. 
 
-<!-- 
+
 Below is a successful sample:
-<p align="center"><img src="Docs/gradio_output_1.png" width="75%"> </p>
-<p align="center"><img src="Docs/gradio_output_2.png" width="75%"> </p> -->
+<p align="center"><img src="Docs/gradio_output_1.png" width="70%"> </p>
+<p align="center"><img src="Docs/gradio_output_2.png" width="70%"> </p> 
 
 ### Method 2: Combination of X-Mesh and Text2Tex
 #### Run with command line
