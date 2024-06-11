@@ -619,6 +619,7 @@ _HEADER_='''
 _CITE_ ='''
 <strong>Tips:</strong>
 <ol>
+  <li>Upload the image and mesh that follow <a href='https://github.com/fengyingxin/MSc-Thesis/tree/main?tab=readme-ov-file#inputs'>instructions</a>. </li>
   <li>Reduce the position offset ratio if the geometry changes too much and vice versa. </li>
   <li>Change the image prompt, try different seed values or increase the number of iterations if the result is unsatisfying.</li>
 </ol>
