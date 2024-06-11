@@ -18,7 +18,6 @@ To run Image Control X-Mesh:
 git clone https://github.com/fengyingxin/MSc-Thesis.git
 
 # setup the conda environment
-cd Setup
 conda env create --file environment.yml
 
 # install other packages
