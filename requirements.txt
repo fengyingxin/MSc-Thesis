@@ -1,0 +1,15 @@
+trimesh
+scikit-learn
+opencv-python
+imageio
+diffusers
+einops
+transformers
+open-clip-torch
+pytorch-lightning==1.9.1
+omegaconf
+triton
+accelerate
+objaverse
+iopath==0.1.10
+mathutils
