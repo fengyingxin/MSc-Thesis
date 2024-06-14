@@ -99,9 +99,11 @@ cd Combination
 ```
 
 ## Outputs
-Below are the results from the Image Control X-Mesh and Combination of X-Mesh and Text2Tex methods:
+Complete results in the thesis can be found in `Output` folder. To transform 
+
+Below are examples from the Image Control X-Mesh and Combination of X-Mesh and Text2Tex methods:
 <p align="center"><img src="Docs/outputs.svg" width="100%"> </p>
-Complete results can be found in `Outputs`.
+
 
 ## Acknowledgement
 The codes are based on [X-Mesh](https://github.com/xmu-xiaoma666/X-Mesh) and [Text2Tex](https://github.com/daveredrum/Text2Tex). Thanks for their excellent work!
