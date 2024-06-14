@@ -80,6 +80,8 @@ First check the `XMeshimg/image_xmesh.py` for all tunable parameters. You can ch
 cd XMeshimg
 ./bash/example.sh
 ```
+The final mesh result is named as `..._final.obj` in the result folder.
+
 #### Use gradio
 To start a local gradio demo, run:
 ```
@@ -97,9 +99,10 @@ First check the `Combination/combination.py` for all tunable parameters. You can
 cd Combination
 ./bash/example.sh
 ```
+The final mesh result is named as `..._post.obj` in the result folder.
 
 ## Outputs
-Complete results in the thesis can be found in `Output` folder. To transform 
+Complete results in the thesis can be found in `Output` folder. To transform the generated Obj files to GIF, this simple [Obj2Gif](https://github.com/fengyingxin/Obj2Gif) tool can be used. 
 
 Below are examples from the Image Control X-Mesh and Combination of X-Mesh and Text2Tex methods:
 <p align="center"><img src="Docs/outputs.svg" width="100%"> </p>
