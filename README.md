@@ -1,4 +1,5 @@
 # 3D building model edit with generative AI
+[Thesis](https://repository.tudelft.nl/record/uuid:a180e48a-4bd2-4606-bce5-9449559bee12)
 ## Overview
 Two methods for 3D model edit with generative AI are presented here, including Image Control X-Mesh (`XMeshimg`) and Combination of X-Mesh and Text2Tex (`Combination`). They can produce high-quality 3D model edit results with geometric changes and texture creation. The proposed methods are especially suitable for low-fidelity inputs. 
 
